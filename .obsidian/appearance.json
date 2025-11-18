@@ -1,5 +1,7 @@
 {
   "cssTheme": "Cupertino",
   "showViewHeader": false,
-  "theme": "system"
+  "theme": "moonstone",
+  "translucency": false,
+  "nativeMenus": false
 }

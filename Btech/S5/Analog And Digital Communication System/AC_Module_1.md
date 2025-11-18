@@ -409,7 +409,7 @@ Where $f_m$ is the maximum frequency component in the message signal.
 
 > **Key Observation:** Both sidebands carry identical information (mirror images). This is redundancy! Later we'll see SSB eliminates one sideband.
 
-### Power Distribution in AM
+	### Power Distribution in AM
 
 **Total Power:**
 $$P_{total} = P_c + P_{USB} + P_{LSB}$$
@@ -781,6 +781,13 @@ graph LR
 > **Critical for SSB:** The PLL must maintain phase lock within ±45° for acceptable quality. Even small phase errors cause distortion (time compression/expansion effect).
 
 ---
+
+
+| Scheme | Bandwidth | System Complexity                          |
+| ------ | --------- | ------------------------------------------ |
+| AM     | $2 f_m$   | Low – simple generation, envelope detector |
+| DSB-SC | $2 f_m$   | Medium – needs coherent detection          |
+| SSB-SC | $f_m$     | High – requires sideband filtering/phasing |
 
 # 10. Frequency Modulation (FM)
 

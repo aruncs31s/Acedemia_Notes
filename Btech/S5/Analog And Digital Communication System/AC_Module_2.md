@@ -209,6 +209,57 @@ Why? Because $P(X = x) = \lim_{dx \to 0} P(x < X \leq x + dx) = \lim_{dx \to 0} 
 | **Exponential** | $f_X(x) = \lambda e^{-\lambda x}$ for $x \geq 0$ | Fading channels, lifetimes |
 | **Rayleigh** | $f_X(x) = \frac{x}{\sigma^2} e^{-\frac{x^2}{2\sigma^2}}$ for $x \geq 0$ | Mobile fading |
 
+
+### ✨ Let X be a continuous random variable with the following probability density $f(x)=\begin{cases}k e^{-4x}, & x\ge 0\\0, & x<0\end{cases}$ . Find the value of the constant k.
+- [ ] do this once
+
+What is given.
+$$
+f(x) =
+\begin{cases}
+k\, e^{-4x}, & x \ge 0,\\[6pt]
+0, & x < 0 
+\end{cases}
+$$
+
+
+* * *
+
+To pin down the constant $k$, you use the one law every PDF must obey:
+
+==The total area under the curve must be **1**.==
+
+Your PDF is:
+
+$$f(x) = k e^{-4x}, \quad x \ge 0$$
+
+and $0$ otherwise.
+
+So:
+
+$$\int_{0}^{\infty} k e^{-4x} \, dx = 1$$
+
+Compute the integral:
+
+$$\int_{0}^{\infty} e^{-4x} \, dx = \left[ -\frac{1}{4} e^{-4x} \right]_{0}^{\infty}  
+= \frac{1}{4}$$
+
+Plug it in:
+
+$$k \cdot \frac{1}{4} = 1$$
+
+Therefore:
+
+$$k = 4$$
+
+The constant is **4**, and the PDF becomes:
+
+$$f(x) = 4 e^{-4x}, \quad x \ge 0$$
+
+This is just an exponential distribution with rate $\lambda = 4$.
+
+
+
 ---
 
 # 4. Statistical Averages: Mean, Variance, and Moments
@@ -469,7 +520,7 @@ $$H(X,Y) = H(X) + H(Y|X) = H(Y) + H(X|Y)$$
 ---
 
 ## Mutual Information
-
+- [ ] study this.
 > **Mutual Information:** The amount of information about $X$ that $Y$ contains (or vice versa).
 
 **Simple Explanation:** How much knowing Y helps you understand X. High mutual information = Y tells you a lot about X. Zero mutual information = Y and X are completely unrelated.
