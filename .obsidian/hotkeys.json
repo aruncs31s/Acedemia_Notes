@@ -95,12 +95,25 @@
         "Mod"
       ],
       "key": "M"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
     }
   ],
   "editor:toggle-inline-math": [
     {
       "modifiers": [
         "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    },
+    {
+      "modifiers": [
+        "Alt",
         "Shift"
       ],
       "key": "M"
@@ -129,5 +142,13 @@
       "key": "W"
     }
   ],
-  "workspace:close": []
+  "workspace:close": [],
+  "webviewer:search": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ]
 }

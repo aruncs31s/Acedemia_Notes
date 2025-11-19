@@ -8,49 +8,72 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d160e71595121f97",
+            "id": "6f922344ccfdd18f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Btech/S5/Digital Signal Processing/PYQ/DEC 2021 — PART A.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DEC 2021 — PART A"
-            }
-          },
-          {
-            "id": "8fc4bce464d3f60c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Btech/S5/Digital Signal Processing/Digital Signal Processing.md",
+                "file": "Btech/S5/Analog And Digital Communication System/GS-Procedure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Digital Signal Processing"
+              "title": "GS-Procedure"
             }
           },
           {
-            "id": "4ac9d0f7463c9a8d",
+            "id": "c0fa558b7a7b3083",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "Btech/S5/Analog And Digital Communication System/AC_Module_5.md",
-                "mode": "source",
-                "source": false
+                "url": "https://drive.google.com/file/d/1gwcwd8eR7yFPRMGI6H0iTG9wVP1UUZsk/view",
+                "title": "ECT305 ANALOG AND DIGITAL COMMUNICATION, DECEMBER 2021.pdf - Google Drive",
+                "mode": "webview"
               },
+              "icon": "globe-2",
+              "title": "ECT305 ANALOG AND DIGITAL COMMUNICATION, DECEMBER 2021.pdf - Google Drive"
+            }
+          },
+          {
+            "id": "97462832e61547e7",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.ktunotes.in/ktu-ect305-analog-digital-communication-notes/",
+                "title": "KTU ECT305 Analog & Digital Communication Notes",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "KTU ECT305 Analog & Digital Communication Notes"
+            }
+          },
+          {
+            "id": "f64aec414b3afcad",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/file/d/1DOS5X9FpgPHTRTscNMmXrICM0ATKzM1I/view",
+                "title": "ADC M1 -Ktunotes.in.pdf - Google Drive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "ADC M1 -Ktunotes.in.pdf - Google Drive"
+            }
+          },
+          {
+            "id": "c2907902d1f21c04",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AC_Module_5"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Btech/S5/Analog And Digital Communication System/AC_Module_5.md",
+                "file": "Btech/S5/Analog And Digital Communication System/PQY 3 Marks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -158,14 +181,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of AC_Module_5"
+              "title": "Graph of PQY 3 Marks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a1ff366d7b310ae4",
@@ -229,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Btech/S5/Digital Signal Processing/Digital Signal Processing.md",
+                "file": "Btech/S5/Analog And Digital Communication System/GS-Procedure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Digital Signal Processing"
+              "title": "Outline of GS-Procedure"
             }
           }
         ],
@@ -243,8 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5,
-    "collapsed": true
+    "width": 402.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,11 +285,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4ac9d0f7463c9a8d",
+  "active": "6f922344ccfdd18f",
   "lastOpenFiles": [
+    "Btech/S5/Analog And Digital Communication System/PQY 3 Marks.md",
+    "Btech/S5/Analog And Digital Communication System/AC_Module_5.md",
+    "Btech/S5/Digital Signal Processing/Digital Signal Processing.md",
+    "Btech/S5/Digital Signal Processing/PYQ/DEC 2021 — PART A.md",
     "Btech/S5/Digital Signal Processing/Mixed/Filtering Long Sequences.md",
     "Btech/S5/Analog And Digital Communication System/Untitled Kanban.md",
-    "Btech/S5/Analog And Digital Communication System/AC_Module_5.md",
     "Btech/S5/Analog And Digital Communication System/Kanban_AC_Module2.md",
     "Btech/S5/Analog And Digital Communication System/AC_Module_3.md",
     "Btech/S5/Analog And Digital Communication System/attachments/Screenshot 2025-11-18 at 3.05.09 PM.png",
@@ -284,10 +310,8 @@
     "Btech/S5/Analog And Digital Communication System/AC_Module_1.md",
     "Btech/S5/Analog And Digital Communication System/Study Steps Module 1.md",
     "Btech/S5/Analog And Digital Communication System/Analog and Digital Communication.md",
-    "Btech/S5/Digital Signal Processing/Digital Signal Processing.md",
     "Btech/S5/Digital Signal Processing/Drawing 2025-11-15 05.49.23.excalidraw.md",
     "Btech/S5/Digital Signal Processing/PYQ/M1.md",
-    "Btech/S5/Digital Signal Processing/PYQ/DEC 2021 — PART A.md",
     "Btech/S5/Digital Signal Processing/PYQ/Dec 2022.md",
     "Btech/S5/Digital Signal Processing/Mixed/attachments",
     "Btech/S5/Digital Signal Processing/PYQ/M3.md",
@@ -302,7 +326,6 @@
     "Templates/callouts/multi callouts.md",
     "Templates/callouts",
     "Templates/templater/project template.md",
-    "Templates/templater/interface.md",
     "Templates/templater",
     "Templates/Optimization",
     "Templates",
